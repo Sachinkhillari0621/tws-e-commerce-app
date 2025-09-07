@@ -9,7 +9,7 @@ pipeline {
         DOCKER_MIGRATION_IMAGE_NAME = 'sachin621/easyshop-migration'
         DOCKER_IMAGE_TAG = "${BUILD_NUMBER}"
         GITHUB_CREDENTIALS = credentials('hub-credentials')
-        GIT_BRANCH = "master"
+        GIT_BRANCH = "main"
     }
     
     stages {
